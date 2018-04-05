@@ -31,4 +31,3 @@ func _process(delta):
 		pass
 	
 	camera.set_translation(get_translation() + dir * CAMERASPEED)
-	pass

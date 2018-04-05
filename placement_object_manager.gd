@@ -2,8 +2,8 @@ extends Spatial
 
 var ray = 1000
 
-var objects = [preload("res://Scene/WorldObjects/test/House1.scn")]
-var currentObject = null
+var objects = []
+onready var currentObject = get_node("object")
 
 func _ready():
 	set_process_input(true)
@@ -11,22 +11,24 @@ func _ready():
 	pass
 
 func _physics_process(delta):
-	var m = get_viewport().get_mouse_position()
-	if Input.is_class("InputEventMouseMotion"):
-		var from = get_viewport().get_camera().project_ray_origin(m)
-		var to = from + get_viewport().get_camera().project_ray_normal(m)*ray
-		var space = get_viewport().get_camera().get_world().direct_space_state.intersect_ray(from,to)
-		if space.has("position"):
-			currentObject.translation.x = space.position.x
-			currentObject.translation.z = space.position.y
-			print(currentObject.translation.x)
-			print(currentObject.translation.z)
 	pass
 
-
 func _input(event):
-	
-	if Input.is_key_pressed(KEY_H):
-		var new_object = objects[0].instance()
-		currentObject = new_object
-		add_child(currentObject)
+	objectAtMouse(event)
+
+#for some reason only can move in input process but no in physic process
+func objectAtMouse(event):
+	if event.is_class("InputEventMouseMotion"):
+		var from = get_viewport().get_camera().project_ray_origin(get_viewport().get_mouse_position())
+		var ray_direction = get_viewport().get_camera().project_ray_normal(get_viewport().get_mouse_position())
+		var to = from + ray_direction*ray
+		var space = get_viewport().get_camera().get_world().direct_space_state
+		var hit = space.intersect_ray(from,to)
+		
+		if hit.has("position"):
+			if hit.size() != 0:
+				print(hit.collider)
+				currentObject.translation.x = hit.position.x
+				currentObject.translation.y = hit.normal.y
+				currentObject.translation.z = hit.position.z
+				print(currentObject.translation.z)

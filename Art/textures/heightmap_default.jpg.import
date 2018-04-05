@@ -2,14 +2,16 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/heightmap_default.jpg-6f1f4026f2e00053733fc79f0a362274.stex"
+path.s3tc="res://.import/heightmap_default.jpg-6f1f4026f2e00053733fc79f0a362274.s3tc.stex"
+path.etc2="res://.import/heightmap_default.jpg-6f1f4026f2e00053733fc79f0a362274.etc2.stex"
 
 [deps]
 
 source_file="res://Art/textures/heightmap_default.jpg"
 source_md5="0e732e0fb6a49c93f97ab7b77b878c45"
-dest_files=[ "res://.import/heightmap_default.jpg-6f1f4026f2e00053733fc79f0a362274.stex" ]
-dest_md5="c84220775ce9018fa26c1356b49d4aee"
+
+dest_files=[ "res://.import/heightmap_default.jpg-6f1f4026f2e00053733fc79f0a362274.s3tc.stex", "res://.import/heightmap_default.jpg-6f1f4026f2e00053733fc79f0a362274.etc2.stex" ]
+dest_md5="3aae209cad0cfc483c2fb2170a95dc19"
 
 [params]
 
