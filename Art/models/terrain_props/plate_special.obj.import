@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/plate_special.obj-56f2b82812224dc2f6fd34d97ee8dac0.mesh"
+
+[deps]
+
+files=[ "res://.import/plate_special.obj-56f2b82812224dc2f6fd34d97ee8dac0.mesh" ]
+
+source_file="res://Art/models/terrain_props/plate_special.obj"
+source_md5="38524edf1603e7ef5d8d3062db61952b"
+
+dest_files=[ "res://.import/plate_special.obj-56f2b82812224dc2f6fd34d97ee8dac0.mesh", "res://.import/plate_special.obj-56f2b82812224dc2f6fd34d97ee8dac0.mesh" ]
+dest_md5="ae139addddb3ec0c436922e69876bc8c"
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

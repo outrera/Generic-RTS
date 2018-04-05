@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/stone_special.obj-b1fb25cb207b4eb2c4add7aa44a44e35.mesh"
+
+[deps]
+
+files=[ "res://.import/stone_special.obj-b1fb25cb207b4eb2c4add7aa44a44e35.mesh" ]
+
+source_file="res://Art/models/geology/stone_special.obj"
+source_md5="63fcd1cb1967df0d8e9e3b0c523d7c0e"
+
+dest_files=[ "res://.import/stone_special.obj-b1fb25cb207b4eb2c4add7aa44a44e35.mesh", "res://.import/stone_special.obj-b1fb25cb207b4eb2c4add7aa44a44e35.mesh" ]
+dest_md5="ba26e6189eb4ec7ef96df04efd5aa644"
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
