@@ -28,13 +28,6 @@ const PLAYERS_COLORS = {
 	"BlACK":Color("000000")
 }
 
-const RESOURCE_TYPES = {
-	"FOOD":[],
-	"WOOD":[],
-	"GOLD":[],
-	"STONE":[]
-}
-
 
 func createTexture(x=512,y=512,use_mipmaps=false,format=Image.FORMAT_RGBA8,path="res://"):
 	var image = Image.new()
@@ -47,23 +40,4 @@ func createTexture(x=512,y=512,use_mipmaps=false,format=Image.FORMAT_RGBA8,path=
 	image.save_png(path)
 	pass
 
-
-func createBaseScene():
-	var terrainGroups = Spatial.new()
-	var worldObjects = Spatial.new()
-	var ambientObjects = Spatial.new()
-	var unitsObjects = Spatial.new()
-	var gaiaUnitsObj = Spatial.new()
-	var playersUnitsObj = Spatial.new()
-	var buildingsObjects = Spatial.new()
-	var gaiaStructuresObj = Spatial.new()
-	var playersStructuresObj = Spatial.new()
-	terrainGroups.name = "TerrainGroups"
-	worldObjects.name = "WorldObjects"
-	ambientObjects.name = "Ambient"
-	unitsObjects.name = "Units"
-	gaiaUnitsObj.name = "GaiaUnits"
-	playersUnitsObj.name = "PlayerUnits"
-	buildingsObjects.name = "BuildingObjects"
-	pass
 

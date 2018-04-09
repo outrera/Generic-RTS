@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Imported/Stone2.dae" type="PackedScene" id=1]
+[ext_resource path="res://addons/procedural_low_poly_env/materials/ColorPalette.material" type="Material" id=2]
+
+[node name="Stone 1" index="0" instance=ExtResource( 1 )]
+
+_sections_unfolded = [ "Transform", "Visibility" ]
+
+[node name="Cube" parent="." index="0"]
+
+material/0 = ExtResource( 2 )
+_sections_unfolded = [ "material" ]
+
+

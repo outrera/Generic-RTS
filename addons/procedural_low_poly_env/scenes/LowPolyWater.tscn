@@ -1,0 +1,27 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://addons/procedural_low_poly_env/scenes/LowpolyPlane.dae" type="PackedScene" id=1]
+[ext_resource path="res://addons/procedural_low_poly_env/materials/WaterShader.tres" type="Shader" id=2]
+
+[sub_resource type="ShaderMaterial" id=1]
+
+render_priority = 0
+shader = ExtResource( 2 )
+shader_param/some_value = null
+
+[node name="LowPolyWater" index="0" instance=ExtResource( 1 )]
+
+transform = Transform( 10, 0, 0, 0, 10, 0, 0, 0, 10, 0.23111, 0.461929, -0.138123 )
+_sections_unfolded = [ "Transform" ]
+
+[node name="Plane" parent="." index="0"]
+
+use_in_baked_light = false
+material/0 = SubResource( 1 )
+_sections_unfolded = [ "material" ]
+
+[node name="AnimationPlayer" parent="." index="1"]
+
+playback_speed = 1.0
+
+

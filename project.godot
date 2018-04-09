@@ -13,6 +13,13 @@ config_version=3
 config/name="RTS-Core"
 config/icon="res://icon.png"
 
+[autoload]
+
+Maps="*res://Globals/Maps.gd"
+Utils="*res://Globals/Utils.gd"
+CivManager="*res://Globals/civilizations.gd"
+GameSettings="*res://Globals/GameSettings.gd"
+
 [display]
 
 window/size/width=800

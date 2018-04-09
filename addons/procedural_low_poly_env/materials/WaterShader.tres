@@ -1,0 +1,32 @@
+[gd_resource type="Shader" format=2]
+
+[resource]
+
+code = "shader_type spatial;
+
+//render_mode blend_add;
+render_mode vertex_lighting;
+//render_mode specular_schlick_ggx;
+//render_mode depth_draw_always;
+
+varying vec3 color;
+uniform float some_value;
+
+void vertex() {
+	VERTEX.y += 0.05 * sin((sin(VERTEX.x) + sin(VERTEX.z) ) * TIME * 2.0);
+	//VERTEX.y += 0.2 * sin(VERTEX.x  + (TIME * 3.0) ) +  0.05 * sin(VERTEX.y  + (TIME * 3.0) );
+}
+
+void fragment() {
+    ALBEDO = vec3(0.0, 0.2, 0.5);
+	METALLIC = 0.7;
+	SPECULAR = 1.0;
+	ALPHA = 0.6;
+	ROUGHNESS = 0.0;
+}
+void light()
+{
+	//NORMAL = vec3(0.0,1,0.0);
+}
+"
+
