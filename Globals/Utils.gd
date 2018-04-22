@@ -4,13 +4,19 @@ const RAY_LEGTH = 1000
 const MAX_POPULATION = 1000
 const MAX_RESOURCE = 99999
 
+var singlepalyer_scene = null
+var options_scene = null
+var editor_scene = null
+var history_scene = null
+
+
 enum PLAYERS {
 	GAIA,PLAYER1,PLAYER2,PLAYER3,PLAYER4,PLAYER5,PLAYER6,
-	PLAYER7,PLAYER8,PLAYER9,PLAYER10,PLAYER11,PLAYER12
+	PLAYER7,PLAYER8
 }
 
 enum RESOURCES {
-	FOOD,WOOD,GOLD,STONE,POPULATION
+	FOOD,WOOD,GOLD,STONE,POPULATION,EXPORT,MILITAR_POPULATION
 }
 
 const PLAYERS_COLORS = {
@@ -28,16 +34,30 @@ const PLAYERS_COLORS = {
 	"BlACK":Color("000000")
 }
 
+var current_civ = ""
 
-func createTexture(x=512,y=512,use_mipmaps=false,format=Image.FORMAT_RGBA8,path="res://"):
-	var image = Image.new()
-	image.create(x,y,use_mipmaps,format)
-	for i in range(x):
-		for j in range(y):
-			image.lock()
-			image.set_pixel(i,j,Color(1.0,1.0,1.0,1.0))
-			image.unlock()
-	image.save_png(path)
+func setTitleWindow(title=""):
+	OS.set_window_title(title)
 	pass
 
+
+func ScreenPosTo3D(camera):
+	var mouse_pos = get_viewport().get_mouse_position()
+	var from = camera.project_ray_origin(mouse_pos)
+	var to = from +camera.project_ray_normal(mouse_pos)
+	var space_state = get_world().direct_space_state
+	var result = space_state.intersect_ray(from,to)
+	return result
+	pass
+
+func fps(root=null,pos=Vector2(0,0)):
+	var fps_label = Label.new()
+	var frames_per_secound = OS.get_ticks_msec()
+	fps_label.text = str(frames_per_secound)
+	pass
+
+
+func exitGame():
+	get_tree().quit()
+	pass
 

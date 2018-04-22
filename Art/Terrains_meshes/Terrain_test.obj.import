@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Terrain_test.obj-452dc44e57e53f1a741a54549befa126.mesh"
+
+[deps]
+
+files=[ "res://.import/Terrain_test.obj-452dc44e57e53f1a741a54549befa126.mesh" ]
+
+source_file="res://Art/Terrains_meshes/Terrain_test.obj"
+source_md5="05c49b3bc2052ffb7021d7901d409a42"
+
+dest_files=[ "res://.import/Terrain_test.obj-452dc44e57e53f1a741a54549befa126.mesh", "res://.import/Terrain_test.obj-452dc44e57e53f1a741a54549befa126.mesh" ]
+dest_md5="4adeb463e37d3c95fd2776fb3304853c"
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

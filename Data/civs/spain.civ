@@ -1,0 +1,14 @@
+[Civilization]
+
+Name="Spain"
+Culture="iberian"
+Flag="res://Art/UI/flags/spain.png"
+Emblem="res://Art/UI/emblems/spain.png"
+History=""
+Music=[ "res://sound/culture/iber/spain1.sample", "res://sound/culture/iber/spain2.sample", "res://sound/culture/iber/spain3.sample", "res://sound/culture/iber/spain4.sample", "res://sound/culture/iber/spain5.sample" ]
+
+[Starting Units]
+
+Villagers=6
+Militia=7
+Explorer=2

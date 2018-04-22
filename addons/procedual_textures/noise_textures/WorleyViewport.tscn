@@ -1,0 +1,34 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://addons/procedual_textures/noise_textures/worley_texture.tscn" type="PackedScene" id=1]
+
+[node name="WorleyViewport" type="Viewport"]
+
+arvr = false
+size = Vector2( 512, 512 )
+own_world = false
+world = null
+transparent_bg = false
+msaa = 0
+hdr = true
+disable_3d = true
+usage = 0
+debug_draw = 1
+render_target_v_flip = false
+render_target_clear_mode = 0
+render_target_update_mode = 1
+audio_listener_enable_2d = false
+audio_listener_enable_3d = false
+physics_object_picking = false
+gui_disable_input = false
+gui_snap_controls_to_pixels = true
+shadow_atlas_size = 0
+shadow_atlas_quad_0 = 2
+shadow_atlas_quad_1 = 2
+shadow_atlas_quad_2 = 3
+shadow_atlas_quad_3 = 4
+_sections_unfolded = [ "Rendering" ]
+
+[node name="Worley" parent="." index="0" instance=ExtResource( 1 )]
+
+

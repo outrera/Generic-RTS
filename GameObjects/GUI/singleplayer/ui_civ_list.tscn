@@ -1,0 +1,29 @@
+[gd_scene format=2]
+
+[node name="OptionButton" type="OptionButton" index="0"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 91.0
+margin_bottom = 20.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+focus_mode = 2
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+toggle_mode = false
+action_mode = 0
+enabled_focus_mode = 2
+shortcut = null
+group = null
+text = "Random"
+flat = false
+align = 1
+items = [ "Random", null, false, 0, null, "Spain", null, false, 1, null, "Ingland", null, false, 2, null, "France", null, false, 3, null, "Unite States", null, false, 4, null, "Confederate States", null, false, 5, null, "Empire of Mexico", null, false, 6, null, "Republic of Mexico", null, false, 7, null, "Republic of Centralamerica", null, false, 8, null ]
+selected = 0
+
+

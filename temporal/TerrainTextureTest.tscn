@@ -1,16 +1,17 @@
 [gd_scene load_steps=14 format=2]
 
 [ext_resource path="res://Shaders/gameshaders/terrain.shader" type="Shader" id=1]
-[ext_resource path="res://Art/textures/terrain/adesert_cracks_d.jpg" type="Texture" id=2]
-[ext_resource path="res://Art/textures/terrain/adesert_mntn2o_d.jpg" type="Texture" id=3]
-[ext_resource path="res://Art/textures/terrain/adesert_stone_d.jpg" type="Texture" id=4]
-[ext_resource path="res://Art/textures/terrain/desert_sand2_d.jpg" type="Texture" id=5]
-[ext_resource path="res://Art/textures/terrain/grass_mix_d.jpg" type="Texture" id=6]
-[ext_resource path="res://Art/textures/terrain/grass_autumn_red_d.jpg" type="Texture" id=7]
-[ext_resource path="res://Art/textures/terrain/grass_green2y_d.jpg" type="Texture" id=8]
-[ext_resource path="res://Art/textures/terrain/grass_green_d.jpg" type="Texture" id=9]
-[ext_resource path="res://Art/textures/terrain/grass_ground2y_d.jpg" type="Texture" id=10]
+[ext_resource path="res://Textures/Terrain/adesert_cracks_d.jpg" type="Texture" id=2]
+[ext_resource path="res://Textures/Terrain/adesert_mntn2o_d.jpg" type="Texture" id=3]
+[ext_resource path="res://Textures/Terrain/adesert_stone_d.jpg" type="Texture" id=4]
+[ext_resource path="res://Textures/Terrain/desert_sand2_d.jpg" type="Texture" id=5]
+[ext_resource path="res://Textures/Terrain/grass_mix_d.jpg" type="Texture" id=6]
+[ext_resource path="res://Textures/Terrain/grass_autumn_red_d.jpg" type="Texture" id=7]
+[ext_resource path="res://Textures/Terrain/grass_green2y_d.jpg" type="Texture" id=8]
+[ext_resource path="res://Textures/Terrain/grass_green_d.jpg" type="Texture" id=9]
+[ext_resource path="res://Textures/Terrain/grass_ground2y_d.jpg" type="Texture" id=10]
 [ext_resource path="res://temporal/t3HeightMap.twilightfort.1.png" type="Texture" id=11]
+
 
 [sub_resource type="PlaneMesh" id=1]
 

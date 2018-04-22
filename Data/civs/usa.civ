@@ -1,0 +1,14 @@
+[Civilization]
+
+Name="Unite States"
+Culture="columbians"
+Flag="res://Art/UI/flags/usa.png"
+Emblem="res://Art/UI/emblems/usa.png"
+History=""
+Music=[ "res://sound/culture/usa/usa1.sample", "res://sound/culture/usa/usa2.sample", "res://sound/culture/usa/usa3.sample", "res://sound/culture/usa/usa4.sample", "res://sound/culture/usa/usa5.sample" ]
+
+[Starting Units]
+
+Villagers=6
+Militia=2
+Explorer=2

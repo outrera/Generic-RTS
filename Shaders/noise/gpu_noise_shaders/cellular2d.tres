@@ -4,6 +4,8 @@
 
 code = "shader_type canvas_item;
 
+render_mode blend_mix;
+
 uniform vec2 offset;
 uniform float scale:hint_range(0.5, 1000.0);
 // jitter cell ceneters. less gives more regular pattern

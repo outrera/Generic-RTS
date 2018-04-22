@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Water_test.obj-591723aeb6acd8009e31bd52e393e228.mesh"
+
+[deps]
+
+files=[ "res://.import/Water_test.obj-591723aeb6acd8009e31bd52e393e228.mesh" ]
+
+source_file="res://Art/Terrains_meshes/Water_test.obj"
+source_md5="13524059d768e50636cbc4adbb16927f"
+
+dest_files=[ "res://.import/Water_test.obj-591723aeb6acd8009e31bd52e393e228.mesh", "res://.import/Water_test.obj-591723aeb6acd8009e31bd52e393e228.mesh" ]
+dest_md5="e887767db0aef9f6f2bda594ed501cae"
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

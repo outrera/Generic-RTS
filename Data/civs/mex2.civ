@@ -1,0 +1,14 @@
+[Civilization]
+
+Name="Republic of Mexico"
+Culture="texmex"
+Flag="res://Art/UI/flags/mex_republic.png"
+Emblem="res://Art/UI/emblems/mex_republic.png"
+History=""
+Music=[ "res://sound/culture/mex2/mex1.sample", "res://sound/culture/mex2/mex2.sample", "res://sound/culture/mex2/mex3.sample", "res://sound/culture/mex2/mex4.sample", "res://sound/culture/mex2/mex5.sample" ]
+
+[Starting Units]
+
+Villagers=5
+Militia=3
+Explorer=1

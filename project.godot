@@ -10,30 +10,54 @@ config_version=3
 
 [application]
 
-config/name="RTS-Core"
+config/name="RTS"
+run/main_scene="res://Main.scn"
+boot_splash/image="res://splashscreen_troll_1.png"
 config/icon="res://icon.png"
 
 [autoload]
 
+GameSettings="*res://Globals/GameSettings.gd"
 Maps="*res://Globals/Maps.gd"
 Utils="*res://Globals/Utils.gd"
-CivManager="*res://Globals/civilizations.gd"
-GameSettings="*res://Globals/GameSettings.gd"
+DebugCommands="*res://Globals/debug_commands.gd"
+SoundManager="*res://Globals/SoundManager.gd"
+Astar="*res://Globals/Astar.gd"
 
-[display]
+[global]
 
-window/size/width=800
+fullscreen=false
 
-[editor_plugins]
+[input]
 
-enabled=PoolStringArray( "PersistenceNode" )
+click_left=[ Object(InputEventMouseButton,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"button_mask":0,"position":Vector2( 0, 0 ),"global_position":Vector2( 0, 0 ),"factor":1.0,"button_index":1,"pressed":false,"doubleclick":false,"script":null)
+ ]
+click_right=[ Object(InputEventMouseButton,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"button_mask":0,"position":Vector2( 0, 0 ),"global_position":Vector2( 0, 0 ),"factor":1.0,"button_index":2,"pressed":false,"doubleclick":false,"script":null)
+ ]
+camera_move_up=[ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":87,"unicode":0,"echo":false,"script":null)
+, Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":16777232,"unicode":0,"echo":false,"script":null)
+ ]
+camera_move_down=[ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":16777234,"unicode":0,"echo":false,"script":null)
+ ]
+camera_move_left=[ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":65,"unicode":0,"echo":false,"script":null)
+, Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":16777231,"unicode":0,"echo":false,"script":null)
+ ]
+camera_move_right=[ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":68,"unicode":0,"echo":false,"script":null)
+, Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":16777233,"unicode":0,"echo":false,"script":null)
+ ]
+exit_game_command=[ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":true,"shift":false,"control":true,"meta":false,"command":true,"pressed":false,"scancode":81,"unicode":0,"echo":false,"script":null)
+ ]
+open_command_panel=[ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":true,"shift":false,"control":true,"meta":false,"command":true,"pressed":false,"scancode":87,"unicode":0,"echo":false,"script":null)
+ ]
+low_settings_mode=[ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":true,"shift":false,"control":true,"meta":false,"command":true,"pressed":false,"scancode":76,"unicode":0,"echo":false,"script":null)
+ ]
+max_settings_mode=[ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":true,"shift":false,"control":true,"meta":false,"command":true,"pressed":false,"scancode":77,"unicode":0,"echo":false,"script":null)
+ ]
+wireframe_mode=[ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":true,"meta":false,"command":true,"pressed":false,"scancode":78,"unicode":0,"echo":false,"script":null)
+ ]
+save_data=[ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":true,"shift":false,"control":true,"meta":false,"command":true,"pressed":false,"scancode":65,"unicode":0,"echo":false,"script":null)
+ ]
 
 [rendering]
 
-quality/shadows/filter_mode=2
-quality/subsurface_scattering/quality=2
-quality/subsurface_scattering/scale=1
-environment/default_clear_color=Color( 0, 0, 0, 1 )
-quality/filters/msaa=2
 environment/default_environment="res://Default_env.tres"
-quality/dynamic_fonts/use_oversampling=true

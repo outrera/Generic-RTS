@@ -1,0 +1,14 @@
+[Civilization]
+
+Name="Confederates"
+Culture="confederate"
+Flag="res://Art/UI/flags/csa.png"
+Emblem="res://Art/UI/emblems/csa.png"
+History=""
+Music=[ "res://sound/culture/csa/csa1.sample", "res://sound/culture/csa/csa2.sample", "res://sound/culture/csa/csa2.sample", "res://sound/culture/csa/csa3.sample", "res://sound/culture/csa/csa4.sample" ]
+
+[Starting Units]
+
+Villagers=5
+Militia=4
+Explorer=1

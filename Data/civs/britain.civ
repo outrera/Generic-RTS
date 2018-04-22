@@ -1,0 +1,14 @@
+[Civilization]
+
+Name="Great Britain"
+Culture="britanic"
+Flag="res://Art/UI/flags/britain.png"
+Emblem="res://Art/UI/emblems/britain.png"
+History=""
+Music=[ "res://sound/culture/britain/britain1.sample", "res://sound/culture/britain/britain2.sample", "res://sound/culture/britain/britain3.sample", "res://sound/culture/britain/britain4.sample", "res://sound/culture/britain/britain5.sample" ]
+
+[Starting Units]
+
+Villagers=5
+Militia=7
+Explorer=2

@@ -1,0 +1,19 @@
+[Civilization]
+
+Name="Mexican Empire"
+Culture="mexican"
+Flag="res://Art/UI/flags/mex_empire.png"
+Emblem="res://Art/UI/emblems/mex_empire.png"
+History="The Second Mexican Empire(Segundo Imperio Mexicano)
+was the name of Mexico under a limited hereditary monarchy declared by Assembly of Notables on July 10,1863.
+During the Second French intervetion in Mexico. it was created with the support of Napoleon III of France,
+who attempted to establish a monarchist ally in the Americas. 
+A referendum confirmed Austrian Archduke Ferdinand Maximilian, of the House of Habsburgs,as Emperor Maximilian I of Mexico
+"
+Music=[ "res://sound/culture/mex_empire/mex1.sample", "res://sound/culture/mex_empire/mex2.sample", "res://sound/culture/mex_empire/mex3.sample", "res://sound/culture/mex_empire/mex4.sample", "res://sound/culture/mex_empire/mex5.sample" ]
+
+[Starting Units]
+
+Villagers=5
+Militia=4
+Explorer=1

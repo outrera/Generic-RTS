@@ -1,0 +1,14 @@
+[Civilization]
+
+Name="Empire of France"
+Culture="france"
+Flag="res://Art/UI/flags/france.png"
+Emblem="res://Art/UI/emblems/france.png"
+History=""
+Music=[ "res://sound/culture/france/france1.sample", "res://sound/culture/france/france2.sample", "res://sound/culture/france/france3.sample", "res://sound/culture/france/france4.sample", "res://sound/culture/france/france5.sample" ]
+
+[Starting Units]
+
+Villagers=5
+Militia=7
+Explorer=2
