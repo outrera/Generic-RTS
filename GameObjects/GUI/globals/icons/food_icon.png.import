@@ -7,10 +7,10 @@ path="res://.import/food_icon.png-5ac82df75e072eb725ca730cbb0e196d.stex"
 [deps]
 
 source_file="res://GameObjects/GUI/globals/icons/food_icon.png"
-source_md5="0f6b4c15a1089320846250c996bd4577"
+source_md5="b4429383db47b1624de23a42a2d31ef8"
 
 dest_files=[ "res://.import/food_icon.png-5ac82df75e072eb725ca730cbb0e196d.stex" ]
-dest_md5="5dd2320f86dc410542d9438c27c088b8"
+dest_md5="5c62b24f4628f69bceb6b1c26a0837e9"
 
 [params]
 

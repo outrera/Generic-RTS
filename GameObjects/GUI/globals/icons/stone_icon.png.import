@@ -7,10 +7,10 @@ path="res://.import/stone_icon.png-4137ba85d5573d381f13e35d502f39ce.stex"
 [deps]
 
 source_file="res://GameObjects/GUI/globals/icons/stone_icon.png"
-source_md5="fe92dab0297c4e44f34c6c612a03ed22"
+source_md5="cf4f5678385af7466cee974f2177f676"
 
 dest_files=[ "res://.import/stone_icon.png-4137ba85d5573d381f13e35d502f39ce.stex" ]
-dest_md5="4c92fda2326ecb772de3d55132ddc760"
+dest_md5="9213d474cf4ac2d6736061517912ab21"
 
 [params]
 

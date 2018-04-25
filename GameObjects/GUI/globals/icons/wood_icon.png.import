@@ -7,10 +7,10 @@ path="res://.import/wood_icon.png-6b93fcdb1a79534a3966072166cb031e.stex"
 [deps]
 
 source_file="res://GameObjects/GUI/globals/icons/wood_icon.png"
-source_md5="add749fa57a933348988db73c55ba0be"
+source_md5="5b9ebac099fb355449a4a2da2309a96a"
 
 dest_files=[ "res://.import/wood_icon.png-6b93fcdb1a79534a3966072166cb031e.stex" ]
-dest_md5="c41ecc5eb157740196486066d2de2595"
+dest_md5="9e509b6e0f3446d463b3574a80053376"
 
 [params]
 

@@ -7,10 +7,10 @@ path="res://.import/gold_icon.png-2212f73c68c0eb0af824f66925ad8a6d.stex"
 [deps]
 
 source_file="res://GameObjects/GUI/globals/icons/gold_icon.png"
-source_md5="40a6ed2e8a096e3bfb6b307e4760ae08"
+source_md5="83e764e09cd1046472f8d91cca73c1dd"
 
 dest_files=[ "res://.import/gold_icon.png-2212f73c68c0eb0af824f66925ad8a6d.stex" ]
-dest_md5="0da24682b6bfd98bf3329d6467e2eeae"
+dest_md5="7dc5513589ff3c23ad027f3ab2528950"
 
 [params]
 

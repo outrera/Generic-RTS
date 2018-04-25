@@ -1,6 +1,7 @@
 extends Node
 
 const MAX_SOUND_VOLUME = 100.0
+const GAME_SPEED = 5
 
 enum game_level {
 	LOW,MEDIUM,HIGH,ULTRA

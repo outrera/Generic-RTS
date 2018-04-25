@@ -7,10 +7,10 @@ path="res://.import/population_icon.png-b441d909ace082ff5f2e8a95c718a4ee.stex"
 [deps]
 
 source_file="res://GameObjects/GUI/globals/icons/population_icon.png"
-source_md5="9ef9e20bd32d314c405ad8e4ee22bc8d"
+source_md5="a6630de4f178cbf6df313f8f6ecb40e8"
 
 dest_files=[ "res://.import/population_icon.png-b441d909ace082ff5f2e8a95c718a4ee.stex" ]
-dest_md5="4f48049088dfbb253eca5298336318a6"
+dest_md5="cab9ee0e2f59c131d54720d10985539a"
 
 [params]
 
